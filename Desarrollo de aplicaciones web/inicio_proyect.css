@@ -1,0 +1,65 @@
+h1
+{
+    background: url("fondo.gif");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+
+}
+h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+ }   
+h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background-color: black;
+
+}
+p
+{
+    text-align: center;
+    font-size: 100%;
+
+    
+}
+header img{
+    vertical-align: middle;
+}
+nav {
+position : absolute;   /* comentario*/
+left : 0;   /* comentario*/
+width : 100%;   /* comentario*/ 
+background-color : black;    /* comentario*/
+}
+nav ul {
+margin : 0 auto;
+width : 940px;
+list-style : none;
+}
+nav ul li {
+float : left;
+}
+nav ul li a {
+display : block;
+margin-right : 20px;
+width : 100px;
+font-size : 14px;
+line-height : 44px;
+text-align : center;
+text-decoration : none;
+color : #ccc;
+}
+nav ul li a:hover {
+color : #fff;
+}
+nav ul li.selected a {
+color : #fff;
+}
